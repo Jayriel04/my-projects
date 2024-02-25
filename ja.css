@@ -1,0 +1,149 @@
+#page {
+    background-color: #070707;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 99%;
+}
+  
+  header h1 {
+    margin: 0;
+}
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.small-logo {
+    width: 100px;
+    height: auto;
+    float: right;
+    transform: rotate(270deg);
+    position: absolute;
+    top: -10px;
+    left: 89%;
+    border: 2px solid #0e0d0d;
+    border-radius: 20%;
+    
+}
+#home {
+    padding: 20px;
+    background-image: url(image1.jpg);
+    height: 75vh;
+    width: 99%;
+}
+
+p {
+    margin-top: 50px;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+b {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.imag2 {
+    width: 70vh;
+    height: auto;
+    position: absolute;
+    border: 2px solid #0e0d0d;
+    border-radius: 20%;
+    top: 50%;
+    right: 0;
+    transform: translate(-30%, -50%);
+  }
+
+#about {
+    padding: 20px;
+    background-image: url(image1.jpg);
+    height: 75vh;
+    width: 99%;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+p {
+    margin-top: 10px;
+    
+}
+
+b {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#service {
+    padding: 20px;
+    background-image: url(image1.jpg);
+    height: 75vh;
+    width: 99%;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#contact {
+    padding: 20px;
+    background-image: url(image1.jpg);
+    height: 75vh;
+    width: 99%;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.location, .contact, .address, .website {
+    margin-bottom: 20px;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.location i, .contact i, .address i , .website i {
+    margin-right: 10px;
+    color: red;
+}
+  
+.location span, .contact span, .address span , .website span{
+    color: #fff;
+}
+
+.web {
+    color: #fff;
+}
